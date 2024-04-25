@@ -82,12 +82,12 @@ export function CoursesCategories() {
           </CardBody>
         </Card>
         <div className="col-span-1 flex flex-col gap-6">
-          {CATEGORIES.slice(0, 2).map((props, key) => (
+          {CATEGORIES.slice(0, 2).map((props:any, key) => (
             <CategoryCard key={key} {...props} />
           ))}
         </div>
         <div className="col-span-1 flex flex-col gap-6">
-          {CATEGORIES.slice(2, 4).map((props, key) => (
+          {CATEGORIES.slice(2, 4).map((props:any, key) => (
             <CategoryCard key={key} {...props} />
           ))}
         </div>
